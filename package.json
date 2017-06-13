@@ -1,0 +1,11 @@
+{
+  "name": "Juno VK Bot",
+  "version": "0.0.2",
+  "description": "Nodejs VK Bot ",
+  "dependencies": {
+  	"VK-Promise": "0.2.3",
+    "express": "4.10.2",
+    "socket.io": "1.3.5",
+    "request": "2.55.0"
+  }
+}
