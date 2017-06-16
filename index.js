@@ -82,15 +82,7 @@ var cmds = [{
     },
     command: "/about",
     description: "О проекте"
-}, {
-    regexp: /^\/(check)/i,
-    f: function(params, msg) {
-        msg.send("В разработке.");
-                    console.log('Чекает обновления:',msg.user_id);
-    },
-    command: "/check",
-    description: "Проверка обновлений"
-}, {
+},  {
     regexp: /^\/(help)/i,
     f: function(params, msg) {
         msg.send(cmds.map(function(a) {
